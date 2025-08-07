@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT;
 // const MONGO_URL = process.env.MONGO_URL;
 MONGO_URL =
-  "mongodb+srv://adnanq61:oU41ky7XPmiZEeSi@cluster0.abqftrf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://mohammedsameenith:HhZXQK3BdiE7tT61@cluster0.wlglmfn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 console.log("MongoDB URL:", MONGO_URL);
 mongoose

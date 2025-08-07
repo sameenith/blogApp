@@ -37,10 +37,7 @@
       <div class="mt-3">
         <% comment.forEach(comment => { %>
         <div>
-          <img
-            src="<%= comment.createdBy.profileImageURL || '/images/default.png' %>"
-            width="25px"
-          />
+          <img src="<%= comment.createdBy.profileImageURL %>" width="25px" />
           <%= comment.createdBy.fullName %>
           <pre> <%= comment.content %></pre>
         </div>
